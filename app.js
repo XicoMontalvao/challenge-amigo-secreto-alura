@@ -24,9 +24,8 @@ function renderizarLista() {
 
         
         const removeButton = document.createElement("button");
-        removeButton.className = "remove-button";
-        // removeButton.textContent = "🗑";
         removeButton.textContent =  "⛔️"
+        removeButton.className = "remove-button";
         
         removeButton.onclick = () => removerAmigo(index);
 
@@ -74,3 +73,6 @@ function typeEffect(element, text, speed) {
 
     typing();
 }
+
+
+//
