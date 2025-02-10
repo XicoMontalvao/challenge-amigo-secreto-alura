@@ -24,18 +24,10 @@ function renderizarLista() {
 
         
         const removeButton = document.createElement("button");
-        removeButton.textContent = "🗑";
-        removeButton.style.marginLeft = "10px";
-        removeButton.style.cursor = "pointer";
-        removeButton.style.fontSize = "12px"; 
-        removeButton.style.padding = "2px 4px"; 
-        removeButton.style.width = "20px"; 
-        removeButton.style.height = "20px";
- 
-        removeButton.style.border = "none"; 
-
-
-
+        removeButton.className = "remove-button";
+        // removeButton.textContent = "🗑";
+        removeButton.textContent =  "⛔️"
+        
         removeButton.onclick = () => removerAmigo(index);
 
         li.appendChild(removeButton);

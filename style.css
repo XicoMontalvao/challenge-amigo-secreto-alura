@@ -160,3 +160,12 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.remove-button{
+    padding: 4px;
+    font-size: 10px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    margin-bottom: 5px;
+}
